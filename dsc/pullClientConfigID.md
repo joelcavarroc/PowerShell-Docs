@@ -97,12 +97,12 @@ configuration PullClientConfigID
         
         ResourceRepositoryWeb CONTOSO-ResourceSrv
         {
-            ServerURL = 'https://CONTOSO-REsourceSrv:8080/PSDSCPullServer.svc'
+            ServerURL = 'https://CONTOSO-ResourceSrv:8080/PSDSCPullServer.svc'
         }
 
         ReportServerWeb CONTOSO-ReportSrv
         {
-            ServerURL = 'https://CONTOSO-REsourceSrv:8080/PSDSCPullServer.svc'
+            ServerURL = 'https://CONTOSO-ResourceSrv:8080/PSDSCPullServer.svc'
         }
     }
 }
